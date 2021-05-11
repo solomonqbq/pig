@@ -1,11 +1,11 @@
-DROP DATABASE IF EXISTS `pig_config`;
+DROP DATABASE IF EXISTS `tianwei_config`;
 
-CREATE DATABASE  `pig_config` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE  `tianwei_config` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
-USE pig_config;
+USE tianwei_config;
 
 -- ----------------------------
 -- Table structure for config_info
